@@ -3,21 +3,20 @@
   <form id="form" @submit.prevent="onSubmit">
     <div class="form-control">
       <label for="text">Text</label>
-      <input type="text" id="text" placeholder="Enter text..." v-model="text" />
+      <input type="text" id="text" placeholder="Wc bril..." v-model="text" />
     </div>
     <div class="form-control">
       <label for="amount"
-      >Amount <br />
-        (negative - expense, positive - income)</label
+      >Hoeveel centjes</label
       >
       <input
           type="text"
           id="amount"
-          placeholder="Enter amount..."
+          placeholder="20000 miljard..."
           v-model="amount"
       />
     </div>
-    <button class="btn">Add transaction</button>
+    <button class="btn">Nieuwe transactie</button>
   </form>
 </template>
 
