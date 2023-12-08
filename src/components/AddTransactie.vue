@@ -1,5 +1,5 @@
 <template>
-  <h3>Add new transaction</h3>
+  <h3>Nieuwe transactie toevoegen</h3>
   <form id="form" @submit.prevent="onSubmit">
     <div class="form-control">
       <label for="text">Text</label>
@@ -16,7 +16,7 @@
           v-model="amount"
       />
     </div>
-    <button class="btn">Nieuwe transactie</button>
+    <button class="btn">Voeg nieuwe transactie toe</button>
   </form>
 </template>
 
