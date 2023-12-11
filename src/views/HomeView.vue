@@ -30,7 +30,7 @@ onMounted (() => {
 });
 
 
-// Get total
+// Totaal
 const total = computed(() => {
   return transactions.value.reduce( (acc, transaction) => {
       return acc + transaction.amount;
