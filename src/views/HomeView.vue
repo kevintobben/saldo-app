@@ -3,13 +3,12 @@
     <Saldo :total="total" />
     <InkomenUitgaven :income="+income" :expenses="+expenses" />
     <TransactieLijst :transactions="transactions" @transactionDeleted="handleTransactionDeleted" />
-    <AddTransactie
-        @transactionsSubmitted="handleTransactionSubmitted" />
+    <AddTransactie @transactionsSubmitted="handleTransactionSubmitted" />
   </main>
 </template>
 
 <script setup>
-import Saldo from '../components/Saldo.vue'
+import Saldo from '@/components/Saldo.vue'
 import InkomenUitgaven from "@/components/InkomenUitgaven.vue";
 import TransactieLijst from "@/components/TransactieLijst.vue";
 import AddTransactie from "@/components/AddTransactie.vue";
